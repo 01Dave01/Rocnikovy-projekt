@@ -1,38 +1,38 @@
-# PC Monitorovací Panel – ročníkový projekt
+# 🖥️ PC Monitorovací Panel – ročníkový projekt
 
-## Autor
+## ✍️ Autor
 
 David Kaněra
 
 ---
 
-## Cíl projektu
+## 🎯 Cíl projektu
 
 Cílem mého projektu je vytvořit externí informační panel připojený k počítači, který v reálném čase zobrazuje aktuální čas a teploty vybraných komponent počítače (CPU a GPU). Projekt slouží jako přehledný monitorovací nástroj a rozšiřuje možnosti běžného sledování stavu počítače.
 Panel umožňuje přehledně sledovat stav počítače v reálném čase bez nutnosti zobrazovat data na hlavním monitoru.
 
 ---
 
-## Použitý hardware
+## 🛠️ Použitý hardware
 
-* 5" TFT LCD displej Waveshare (800×480, HDMI)
-* Počítač s operačním systémem Windows 11
-* HDMI kabel
-* Napájení displeje přes USB
-
----
-
-## Použitý software
-
-* Windows 11
-* Python 3
-* Tkinter (grafické uživatelské rozhraní)
-* OpenHardwareMonitor / LibreHardwareMonitor
-* Knihovny Pythonu: **subprocess**, **datetime**
+* 🖥️ 5" TFT LCD displej Waveshare (800×480, HDMI)  
+* 💻 Počítač s Windows 11  
+* 🔌 HDMI kabel  
+* ⚡ Napájení displeje přes USB
 
 ---
 
-## Popis řešení
+## 💾 Použitý software
+
+* 🪟 Windows 11  
+* 🐍 Python 3  
+* 🎨 Tkinter (grafické uživatelské rozhraní)  
+* 🖥️ OpenHardwareMonitor / LibreHardwareMonitor  
+* 📚 Knihovny Pythonu: **subprocess**, **datetime**
+
+---
+
+## 📝 Popis řešení
 
 Aplikace je napsaná v jazyce **Python** a využívá knihovnu **Tkinter** pro vytvoření grafického rozhraní. Program běží v režimu celé obrazovky a je optimalizován pro rozlišení 800×480 pixelů, které odpovídá TFT displeji.
 
@@ -40,21 +40,20 @@ Teploty procesoru (CPU) a grafické karty (GPU) jsou získávány z monitorovac�
 
 ---
 
-## Funkce aplikace
 
-* Zobrazení aktuálního času
-* Zobrazení aktuálního data
-* Zobrazení teploty CPU
-* Zobrazení teploty GPU
-* Kruhové grafické ukazatele teplot
-* Barevná signalizace teplot:
+## ⚙️ Funkce aplikace
 
-  * zelená – bezpečná teplota
-  * oranžová – zvýšená teplota
-  * červená – kritická teplota
-* Automatická aktualizace hodnot každou sekundu
-* Fullscreen režim vhodný pro externí displej
-* 
+* ⏰ Zobrazení aktuálního času  
+* 📅 Zobrazení aktuálního data  
+* 🌡️ Zobrazení teploty CPU  
+* 🎮 Zobrazení teploty GPU  
+* 🔵 Kruhové grafické ukazatele teplot  
+* 🌈 Barevná signalizace teplot:
+  * 🟢 zelená – bezpečná teplota  
+  * 🟠 oranžová – zvýšená teplota  
+  * 🔴 červená – kritická teplota  
+* 🔄 Automatická aktualizace hodnot každou sekundu  
+* 🖥️ Fullscreen režim vhodný pro externí displej
 ---
 
 ## Ukázka funkčního projektu
@@ -66,7 +65,7 @@ Níže můžete vidět, jak vypadá finální výsledek.
 
 ---
 
-## Problémy
+## ⚠️ Problémy
 
 Během vývoje projektu nastal problém se získáváním teplot hardwaru v operačním systému Windows 11. Standardní způsob ne vždy poskytuje spolehlivá data, proto jsem se rozhodl použít externí monitorovací software, který umožňuje čtení hodnot senzorů z procesoru a grafické karty.
 
@@ -74,20 +73,20 @@ Dále bylo nutné přizpůsobit grafické rozhraní malému rozlišení displeje
 
 ---
 
-## Vylepšení oproti základním řešením
+## 🚀 Vylepšení oproti základním řešením
 
-* Vlastní grafické zpracování (kruhové indikátory)
-* Barevná signalizace podle aktuální teploty
-* Optimalizace rozložení prvků pro externí displej
-* Oddělení logiky aplikace a grafického rozhraní
+* 🎨 Vlastní grafické zpracování (kruhové indikátory)  
+* 🌈 Barevná signalizace podle aktuální teploty  
+* 🖥️ Optimalizace rozložení prvků pro externí displej  
+* 🔧 Oddělení logiky aplikace a grafického rozhraní
 
 ---
 
-## Závěr
+## 🏁 Závěr
 
 Výsledkem projektu je funkční monitorovací panel. Projekt propojuje programování, práci s hardwarem a praktické využití v reálném prostředí. Aplikace je přehledná, rozšiřitelná a vhodná pro další vývoj.
 
-## Zdroje a citace
+## 📚 Zdroje a citace
 
 📙 Software / Nástroj
 
