@@ -61,8 +61,8 @@ Teploty procesoru (CPU) a grafické karty (GPU) jsou získávány z monitorovac�
 
 Níže můžete vidět, jak projekt vypadá při spuštění na počítači a na externím displeji.  
 
-![Hlavní obrazovka](images/screenshot1.jpg)
-![Zobrazení teplot](images/screenshot2.jpg)
+![Hlavní obrazovka](20260110_173456.jpg)
+![Zobrazení teplot](20260110_173508.jpg)
 
 ---
 
