@@ -61,6 +61,7 @@ Teploty procesoru (CPU) a grafické karty (GPU) jsou získávány z monitorovac�
 Níže můžete vidět, jak vypadá finální výsledek. 
 
 ![Hlavní obrazovka](20260110_173456.jpg)
+---
 ![Zobrazení teplot](20260110_173508.jpg)
 
 ---
@@ -85,6 +86,8 @@ Dále bylo nutné přizpůsobit grafické rozhraní malému rozlišení displeje
 ## 🏁 Závěr
 
 Výsledkem projektu je funkční monitorovací panel. Projekt propojuje programování, práci s hardwarem a praktické využití v reálném prostředí. Aplikace je přehledná, rozšiřitelná a vhodná pro další vývoj.
+
+---
 
 ## 📚 Zdroje a citace
 
@@ -115,3 +118,5 @@ PYTHON SOFTWARE FOUNDATION. Tkinter — Python interface to Tcl/Tk [online]. [ci
 Waveshare displej (produkt):
 WAVESHARE. 5″ TFT LCD displej (800×480, HDMI) [online]. [cit. 2026‑01‑10]. Dostupné z: https://botland.cz/displeje-raspberry-pi/4467-odporovy-dotykovy-lcd-tft-5-800x480px-hdmi-gpio-pro-raspberry-pi-432-b-zero-waveshare-10563-5904422371364.html
 .
+
+
